@@ -1,0 +1,68 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Event 1",
+      "image": "event1.jpg",
+      "address": "123 Main St",
+      "start_time": "2023-10-01 10:00:00",
+      "end_time": "2023-10-01 12:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Event 2",
+      "image": "event2.jpg",
+      "address": "456 Elm St",
+      "start_time": "2023-10-02 14:00:00",
+      "end_time": "2023-10-02 16:00:00"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "name": "Movie 1",
+      "image": "movie1.jpg",
+      "address": "789 Oak St",
+      "start_time": "2023-10-03 18:00:00",
+      "end_time": "2023-10-03 20:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Movie 2",
+      "image": "movie2.jpg",
+      "address": "101 Pine St",
+      "start_time": "2023-10-04 20:00:00",
+      "end_time": "2023-10-04 22:00:00"
+    }
+  ],
+  "subscriptions": [
+    {
+      "subscription_number": "abc-123",
+      "subscription": {
+        "org_id": 1
+      }
+    },
+    {
+      "subscription_number": "def-456",
+      "subscription": {
+        "org_id": 2
+      }
+    }
+  ],
+  "orderChildren": [
+    {
+      "ticket_number": "abc-123",
+      "order": {
+        "id": 1,
+        "details": "Order details for abc-123"
+      }
+    },
+    {
+      "ticket_number": "def-456",
+      "order": {
+        "id": 2,
+        "details": "Order details for def-456"
+      }
+    }
+  ]
+}
